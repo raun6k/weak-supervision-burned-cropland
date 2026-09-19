@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: >-
+  If you use this work, please cite the accompanying paper using the
+  preferred citation below. The experiment code is being prepared for release.
+type: software
+title: "Calibrated Weak Supervision for Post-Harvest Burned-Cropland Mapping Under Label Scarcity"
+authors:
+  - family-names: Bhagate
+    given-names: Raunak
+    affiliation: "SRM Institute of Science & Technology"
+  - family-names: Polisetty
+    given-names: Maitri
+    affiliation: "SRM Institute of Science & Technology"
+  - family-names: Minu
+    given-names: R I
+    affiliation: "SRM Institute of Science & Technology"
+repository-code: "https://github.com/raun6k/weak-supervision-burned-cropland"
+preferred-citation:
+  type: unpublished
+  title: "Calibrated Weak Supervision for Post-Harvest Burned-Cropland Mapping Under Label Scarcity"
+  authors:
+    - family-names: Bhagate
+      given-names: Raunak
+    - family-names: Polisetty
+      given-names: Maitri
+    - family-names: Minu
+      given-names: R I
+  url: "https://github.com/raun6k/weak-supervision-burned-cropland/blob/main/papers/burned_area_mapping_paper.pdf"
+  notes: "Manuscript accompanying the experiment repository."

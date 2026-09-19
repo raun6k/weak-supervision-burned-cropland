@@ -1,0 +1,74 @@
+# Operating system and editor files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python bytecode, virtual environments, and packaging
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.Python
+*.egg-info/
+.eggs/
+/build/
+/dist/
+
+# Test, lint, and notebook caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Local environment settings and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.template
+/credentials/
+/secrets/
+/service-account*.json
+/service_account*.json
+
+# Downloaded source data and generated geospatial intermediates.
+# Keep data documentation, manifests, and small fixtures outside these folders.
+/data/raw/
+/data/interim/
+/data/processed/
+/data/downloads/
+/data/exports/
+
+# Generated experiment outputs and trained models.
+# Store curated reproduction fixtures and reference results elsewhere.
+/outputs/
+/artifacts/
+/checkpoints/
+/models/trained/
+/runs/
+/logs/
+/wandb/
+/mlruns/
+/mlartifacts/
+*.log
+
+# Local caches and temporary files
+.cache/
+/cache/
+/tmp/
+/temp/
+
+# Keep notebooks, configuration files, dependency lockfiles, source scripts,
+# documentation, and papers/*.pdf trackable. Do not ignore data formats globally.
